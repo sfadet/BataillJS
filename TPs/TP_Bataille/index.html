@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Bataille</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+<div class="bg-image">
+    <div class="container-fluid">
+        <h1>BATAILLE</h1>
+    </div>
+    <div id="start" class="container-fluid">
+        <button id="fight" class="btn btn-danger">Que le jeu commence</button>
+    </div>
+    <div id="jeu" class="container-fluid">
+        <h3></h3>
+        <button id="combat" class="btn btn-danger">Combat</button>
+        <div class="container">
+            <div class="row align-items-start">
+                <div class="col">
+                    <p>Joueur 1</p>
+                    <p id="scoreJ1">0</p>
+                    <div id="imgJ1"></div>
+                </div>
+                <div class="col">
+                    <p>Égalité(s)</p>
+                    <p id="egalite">0</p>
+                    <div id="end">
+                        <p id="winner"></p>
+                        <button id="playAgain" class="btn btn-danger">Rejouer</button>
+                    </div>
+                </div>
+                <div class="col">
+                    <p>Joueur 2</p>
+                    <p id="scoreJ2">0</p>
+                    <div id="imgJ2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</div>
+</body>
+</html>
